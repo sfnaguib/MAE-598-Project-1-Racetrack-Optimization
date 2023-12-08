@@ -13,7 +13,7 @@ Simulation Parameters: Parameters such as speed, wheelbase, time step, number of
 Assumptions and Constraints
 
 The script seems to consider a fixed speed and wheelbase, which implies a simplified model of vehicle dynamics.
-The circular track with a defined radius and width sets the geometric constraints for the vehicle's path optimization.
+The circular track with a defined radius and width sets the geometric constraints for the vehicle's path optimization. For this system as well, the speed of the vehicle is kept constant, which is not very realistic as to reduce the time it takes to go through a track acceleration and braking of the vehicle are employed. A future version of this code that I am working on will implement this feature. 
 
 Methods Used for Solving
 
