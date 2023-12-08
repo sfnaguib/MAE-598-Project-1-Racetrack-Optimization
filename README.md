@@ -20,6 +20,8 @@ Methods Used for Solving
 Optimization Technique: The use of the torch library suggests that gradient-based optimization methods might be used, possibly involving a loss function and backpropagation.
 Simulation-Based Approach: The defined time step and number of steps indicate a discrete simulation over time, likely iterating the vehicle's position and adjusting the steering angle to optimize the path.
 
+Looking at the included graphics, you can see that the optimized path takes the best path with the least number of steering inputs required. In the world of car racing, steering input means decisions that the driver has to make, which means more time added to a lap. The greater the steering angle, the less input is needed by the driver to follow the correct path. We can see this as the number of iterations continues, the maximum steering angle increases. We can also see that in the loss function. Due to our learning rate and number of iterations, the loss decreases rapidly to zero and does not spike. This means out solver works properly and as intented. This is a very interesting and continuing project that I will be adding more functionallity to in the future. 
+
 Future Implications in Motorsport Engineering
 
 Path Optimization: This script could be foundational in developing algorithms for autonomous or semi-autonomous racing vehicles, where optimal pathfinding is crucial.
